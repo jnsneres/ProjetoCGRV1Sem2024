@@ -41,6 +41,6 @@ npm run dev
 ```
 
 ## Exemplos de Ícones
-<img src="./assets/Exemplo1.png" style="border-radius: 10px; margin-bottom: 10px"/>
-<img src="./assets/Exemplo2.png" style="border-radius: 10px; margin-bottom: 10px"/>
-<img src="./assets/Exemplo3.png" style="border-radius: 10px; margin-bottom: 10px"/>
+<img src="./assets/Exemplo1.png" style="width: 500px; margin-bottom: 10px"/>
+<img src="./assets/Exemplo2.png" style="width: 500px; margin-bottom: 10px"/>
+<img src="./assets/Exemplo3.png" style="width: 500px; margin-bottom: 10px"/>
