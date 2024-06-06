@@ -1,10 +1,22 @@
 import { getColorIterator } from "./utils/colors/color.js";
 import blob from "./utils/blob/blob.js"
 
+function fundo(key, draw,) {
+    let cx = 1000;
+    let cy = 1000;
+    let corFundo = getColorIterator(key);
+
+    draw.rect().attr({
+        x: 0, y: 0, width: cx, height: cy, fill: corFundo(), opacity: 1
+    });
+}
+
 function nextFace(key, draw) {
     let cx = 500;
     let cy = 500;
     let face = 200 + key.next256();
+
+    fundo(key, draw)
 
     blobDraw(key, draw)
 
